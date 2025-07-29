@@ -1,0 +1,20 @@
+# === Angular (frontend) ===
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.angular/
+frontend/*.log
+
+# === Spring Boot (backend) ===
+/backend/target/
+/backend/.mvn/
+*.log
+*.jar
+*.war
+
+# === OS & IDE files ===
+.DS_Store
+Thumbs.db
+*.iml
+*.class
+.vscode/
+.idea/
