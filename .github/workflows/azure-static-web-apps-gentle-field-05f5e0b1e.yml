@@ -30,9 +30,9 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # For PR comment support
           action: "upload"
-          app_location: "/CRUD-frontend-Spring"              # Path to your app source
-          api_location: ""                                   # Optional, if no API
-          output_location: "CRUD-frontend-Spring/dist"       # Adjusted to correct build output
+          app_location: "/CRUD-frontend-Spring"
+          api_location: ""
+          output_location: "CRUD-frontend-Spring/dist"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
