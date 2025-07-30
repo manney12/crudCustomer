@@ -1,12 +1,12 @@
 # === Angular (frontend) ===
-/frontend/node_modules/
-/frontend/dist/
-/frontend/.angular/
-frontend/*.log
+/CRUD-frontend-Spring/node_modules/
+/CRUD-frontend-Spring/dist/
+/CRUD-frontend-Spring/.angular/
+CRUD-frontend-Spring/*.log
 
 # === Spring Boot (backend) ===
-/backend/target/
-/backend/.mvn/
+/CRUD-backend-Spring/target/
+/CRUD-backend-Spring/.mvn/
 *.log
 *.jar
 *.war
@@ -17,4 +17,4 @@ Thumbs.db
 *.iml
 *.class
 .vscode/
-.idea/
+/.idea/
